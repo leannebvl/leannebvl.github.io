@@ -127,6 +127,7 @@ footer{
     display: flex;
     gap: 50px; /* Espacement entre les deux colonnes */
     justify-content: space-evenly;
+    text-align: center;
   }
   
   /* Skills Section */
@@ -145,6 +146,7 @@ footer{
   /* Skill Name */
   .skill span:first-child {
     flex: 1;
+    text-align: justify;
   }
   
   /* Progress Bar Container */
@@ -170,10 +172,12 @@ footer{
   .outils{
     display: flex;
     flex-direction: column;
+    margin-left: 30%;
   }
 
   .outils>span{
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    text-align: justify;
   }
   
 
@@ -270,6 +274,11 @@ footer{
 
 .logo>a{
     width: 20%;
+}
+
+.check{
+    width: 6%;
+    margin-right: 5%;
 }
 
 .flex-l{
