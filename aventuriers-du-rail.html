@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPortfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="ressources/css/style-home.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex-l space-between logo">
+                <a href="home.html"><img class="width" src="ressources/img/L.png"></a>
+                <ul class="flex-l align-item marg-r">
+                    <li class="block"><a href="#compétences">Compétences</a></li>
+                    <li class="block"><a href="réalisation.html">Retour</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="page dark">
+        <div class="boxed flex group line dimension">
+            <h2>Les Aventuriers du rail autour du monde</h2>
+            <span></span>
+            <span></span>
+            <h5>Début 2023</h5>
+            <p>
+                Ce projet, réalisé en première année de BUT informatique, consistait à produire une implémentation en <span class="highlight">Java</span> et <span class="highlight">JavaFX</span> du jeu de plateau "Aventuriers du Rail - Autour du Monde". 
+                </p>
+            <div class="flex-l margin-top space-between responsive">
+                <div class="w70">
+                    <p>
+                        Ce projet a été conçu pour être réalisé de façon incrémentale en 3 phases : 
+                    </p>
+                    <ul class="phase point">
+                        <li><span>Phase 1 : </span> <i>Développement de la mécanique du jeu en Java</i> </li>
+                        <li><span>Phase 2 : </span><i>Mise en œuvre des algorithmes de graphes afin de définir des stratégies de jeu pour les joueurs</i></li>
+                        <li><span>Phase 3 (suite de la Phase 1) : </span><i>Implémentation d’une interface graphique sous JavaFX</i></li>
+                    </ul>
+                </div>
+                <img class="adr" src="ressources/img/ADR.jpg" alt="Les Aventuriers du rail autour du monde">
+            </div>
+        </div>
+        <div class="flex-l space-evenly margin-top flex-row">
+            <div class="taille">
+                <h3 class="text-center">RESSOURCES</h3>
+                <ul class="phase margin-top">
+                    <li>Projet en binôme</li>
+                    <li>Développement orienté objets</li>
+                    <li>Qualité de développement</li>
+                    <li>Algorithmes de graphes</li>
+                    <li>Interfaces homme-machine</li>
+                </ul>
+            </div>
+            <div class="taille w25">
+                <h3 class="text-center">CONTEXTE</h3>
+                <ul class="phase margin-top">
+                    <li> Durée : 4 mois et demi (3 parties)</li>
+                    <li>Évaluation : par tests unitaires ainsi qu’une soutenance à la fin du projet.</li>
+                    <li>Attente : développement du jeu en java/javaFX</li>
+                    <li>Contrainte :</strong>  respecter toutes les règles du jeu</li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex group align-item marg-b interface">
+            <img class="w70" src="ressources/img/resultat.png" alt="Résultat Plateau">   
+            <h6 class="text-center">Voici le résultat de notre interface, j'ai pu m'occuper de réaliser le cas où le joueur pose ces cartes pour placer des wagons, mais aussi le cas où il passe son tour et pour finir, les cartes de pioches.</h6>
+        </div>
+        <div class="group margin-top marg-b" id="compétences"> 
+            <h3>Relations entre les réalisations personnelles et le <a class="color index" href="ressources/files/PN-BUT-informatique.pdf" target="_blank">programme</a> de BUT Informatique</h3>
+        </div>
+        <div class="wrap space-evenly">
+            <div class="w32 compétences space-between">
+                <h4>CE 1.01 - Réaliser : respecter les besoins décrits par le client.</h4>
+                <h4>Ex : Respecter les règles du jeu</h4>
+            </div>
+            <div class="w32 compétences space-between">
+                <h4>CE 1.03 - Réaliser : appliquer les principes algorithmiques.</h4>
+                <h4>Ex : Séparer les différents aspects en plusieurs classes (Joueur, Jeu, héritage pour Routes afin d'éviter la redondance...).</h4>
+            </div>
+            <div class="w32 compétences space-between">
+                <h4>CE 2.02 - Optimiser : Recenser les algorithmes et les structures de données usuels.</h4>
+                <h4>Ex : Utiliser l'algorithme de Dijkstra pour calculer la route la plus longue.</h4>
+            </div>
+            <div class="w32 compétences space-between">
+                <h4>AC 11.02 - Réaliser : élaborer des conceptions simples.</h4>
+                <h6>Acquis</h6>
+                <h4>Ex : Réaliser une maquette pour concevoir et avoir un aperçu simple de l'application.</h4>
+            </div>
+            <div class="w32 compétences space-between">
+                <h4>AC 11.03 - Réaliser : faire des essais et évaluer leurs résultats en regard des spécifications.</h4>
+                <h6>Acquis</h6>
+                <h4>Ex : Faire des tests unitaires et observer les résultats.</h4>
+            </div>
+            <div class="w32 compétences space-between">
+                <h4>AC 12.03 - Optimiser : formaliser et mettre en œuvre des outils mathématiques pour l’informatique.</h4>
+                <h6>Acquis</h6>
+                <h4>Ex : Utilisation de graphe et de formules mathématiques pour les routes et les calculs de points.</h4>
+            </div>
+    </div>
+    <footer class="margin-top text-center"> 
+        © 2024 by Léanne Bavoillot. All rights reserved.
+    </footer>
+</body>
