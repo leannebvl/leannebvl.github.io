@@ -279,6 +279,7 @@ footer{
 .check{
     width: 6%;
     margin-right: 5%;
+    text-align: justify;
 }
 
 .flex-l{
@@ -538,6 +539,12 @@ h4{
     #compétences{
         font-size: 80%;
         text-align: center;
+    }
+    .outils{
+        margin-left: 10%;
+    }
+    .container{
+        gap: 0;
     }
     .taille>div>h6{
         font-size: 70%;
