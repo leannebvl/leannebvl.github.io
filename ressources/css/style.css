@@ -51,6 +51,10 @@ h2{
     margin-bottom: 2%;
 }
 
+a{
+    color: #ffffff;
+}
+
 .taille>p{
     text-align: justify;
 }
