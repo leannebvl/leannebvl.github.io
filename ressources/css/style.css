@@ -6,6 +6,7 @@
 body{
     font-family:'Work Sans', serif;
     background-color: #1f1f1f;
+    color: #ffffff;
 }
 
 .slider{
@@ -120,6 +121,61 @@ footer{
     position: relative;
     padding: 3% 0;
 }
+  
+  /* Container */
+  .container {
+    display: flex;
+    gap: 50px; /* Espacement entre les deux colonnes */
+    justify-content: space-evenly;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    width: 40%;
+    margin-top: 10%;
+  }
+  
+  /* Individual Skill */
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Skill Name */
+  .skill span:first-child {
+    flex: 1;
+  }
+  
+  /* Progress Bar Container */
+  .progress-bar {
+    flex: 3;
+    height: 8px;
+    background: #2c1135bd;
+    border-radius: 5px;
+  }
+  
+  /* Progress Bar Fill */
+  .progress {
+    height: 100%;
+    background: #7a0a9f; /* Couleur jaune */
+    border-radius: 5px;
+  }
+  
+  /* Percentage */
+  .percentage {
+    margin-left: 5%;
+  }
+
+  .outils{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outils>span{
+    margin-bottom: 5%;
+  }
+  
 
 .highlight{
     font-weight: bold;
@@ -133,7 +189,6 @@ footer{
     font-size: 80%;
     line-height: 1.8em;
     letter-spacing: 2px;
-    color: #FFFFFF;
     background-color: #A160FF;
     border-radius: 99px 99px 99px 99px;
     padding: 13px 23px 13px 23px;
@@ -143,10 +198,6 @@ footer{
 
 .text-center{
     text-align: center;
-}
-
-.dark{
-    color: #FFFFFF;
 }
 
 .w32{
@@ -199,7 +250,6 @@ footer{
 .projet a{
     padding: 5% 10% 5% 10%;
     display: block;
-    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: .15em;
 }
@@ -237,6 +287,21 @@ footer{
     display: block;
     padding: 10px;
     box-sizing: border-box;
+}
+
+#fleche{
+    display: flex;
+    justify-content: center;
+}
+
+#fleche > img {
+    width: 3%;
+    animation: bounce 6s infinite;
+    display: block;
+}
+
+#fleche.hidden {
+    display: none;
 }
 
 .block>a:hover{
@@ -362,7 +427,6 @@ h4{
 }
 
 .color{
-    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -498,17 +562,20 @@ h4{
     }
 }
 
-@media(max-height:800px){
+@media(max-height:790px){
     .taille>p{
         font-size: 90%;
-    }
-    .para>p{
-        font-size: 70%;
     }
     .taille>h2{
         font-size: 160%;
     }
     .taille>div>h5{
         font-size: 80%;
+    }
+}
+
+@media(max-height:500px){
+    .para>p{
+        font-size: 70%;
     }
 }
