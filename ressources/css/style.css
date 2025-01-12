@@ -518,6 +518,9 @@ h4{
     footer{
         margin-top: 20%;
     }
+    .w32{
+        width: 40%;
+    }
     .contact{
         font-size: 70%;
     }
