@@ -356,7 +356,6 @@ h3{
 h5{
     margin-bottom: 2%;
     font-size: 120%;
-    font-weight: normal;
 }
 
 h5>span{
@@ -368,6 +367,8 @@ h6{
     margin-bottom: 7%;
     font-size: 100%;
     color: #ffffffd2;
+    font-weight: normal;
+    width: 90%;
 }
 
 .margin-top{
