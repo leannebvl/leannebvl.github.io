@@ -132,7 +132,7 @@ footer{
   /* Skills Section */
   .skills-section {
     width: 40%;
-    margin-top: 10%;
+    margin-top: 6%;
   }
   
   /* Individual Skill */
@@ -306,7 +306,7 @@ footer{
 
 #fleche > img {
     width: 3%;
-    animation: bounce 6s infinite;
+    animation: bounce 6s ease-in-out 0s infinite;
     display: block;
 }
 
@@ -555,9 +555,6 @@ h4{
     }
     .taille>p{
         font-size: 100%;
-    }
-    .taille>div>h6{
-        font-size: 83%;
     }
     .taille>div>h5{
         font-size: 100%;
