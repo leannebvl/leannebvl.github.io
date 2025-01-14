@@ -55,7 +55,7 @@ h2{
 }
 
 p{
-    font-size: 130%;
+    font-size: 140%;
     line-height: 1.5em;
     margin-bottom: 5%;
     margin-top: 4%;
@@ -496,10 +496,7 @@ h4{
         font-size: 70%;
         line-height: 180%;
     }
-    p{
-        font-size: 100%;
-        text-align: center;
-    }
+
     .responsive{
         flex-direction: column;
         text-align: center;
