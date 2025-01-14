@@ -299,6 +299,10 @@ footer{
     box-sizing: border-box;
 }
 
+.text-size{
+    font-size: 120%;
+}
+
 #fleche{
     display: flex;
     justify-content: center;
@@ -493,7 +497,7 @@ h4{
         line-height: 180%;
     }
     p{
-        font-size: 80%;
+        font-size: 100%;
         text-align: center;
     }
     .responsive{
